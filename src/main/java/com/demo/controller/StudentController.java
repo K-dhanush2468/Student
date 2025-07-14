@@ -47,4 +47,11 @@ public class StudentController {
 		
 		return "success";
 	}
+	
+
+@GetMapping("hello")
+public String success(){
+	
+	return "success";
+}
 }
