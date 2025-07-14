@@ -42,4 +42,9 @@ public class StudentController {
 		
 		return ss.findStudentAge(a);
 	}
+	@GetMapping("hello")
+	public String hello(){
+		
+		return "success";
+	}
 }
